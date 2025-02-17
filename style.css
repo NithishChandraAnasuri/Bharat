@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair", serif;
+  font-style: normal;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  /* background-image: url(./assets/shubham-dhiman-ykbpWdmF2R8-unsplash.jpg); */
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  position: fixed;
+}
+h1 {
+  color: rgb(5, 0, 0);
+  margin: 400px 0px 0px 570px;
+  font-weight: 900;
+}
+/* /////////////////////////////////////////// */
+.containerr {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  background-image: url(./assets/amruth-pillai-mxVw6RZwi6o-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  position: fixed;
+}
+#land {
+  margin-left: 380px;
+  margin-top: 300px;
+  color: white;
+}
+#chakra
+{
+  margin-top: 300px;
+
+}
+/* /////////////////////////////////////////////
+ */
+/* Navbar Styling */
+.containerrr {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  align-items: center;
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+h2 {
+  color: white;
+}
+.bar {
+  width: 40px;
+  height: 5px;
+  margin-left: 13px;
+  background-color: orange;
+}
+.navbar h2 {
+  color: white;
+  font-size: 24px;
+  font-family: "Arial", sans-serif;
+}
+
+.ashoka-chakra {
+  width: 50px;
+  height: 50px;
+  background: url("./assets/ashoka-chakram.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #ffa500;
+  border-radius: 5px;
+}
+
+.main {
+  max-width: 1200px;
+  height: 90vh;
+  border-radius: 15px;
+  border: 1px solid grey;
+  background-image: url(./assets/amit-rai-XaLjGreZViE-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  opacity: 5px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainn
+{
+  max-width: 1200px;
+  height: 2500px;
+  border-radius: 15px;
+  background-image: url(./assets/amit-rai-XaLjGreZViE-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  opacity: 5px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.mainnn
+{
+  max-width: 1400px;
+  height: 3400px;
+  border-radius: 15px;
+  background-image: url(./assets/amit-rai-XaLjGreZViE-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  opacity: 5px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.main::before {
+  content: "";
+  position: absolute;
+  width: 95%;
+  height: 90%;
+  /* background: rgba(0, 0, 0, 0.295); */
+  border-radius: 15px;
+}
+
+.banner {
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  height: 400px;
+  text-align: center;
+}
+.text-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-left: 80px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+}
+
+.text-container h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text-container p {
+  font-size: 20px;
+  margin: 5px 0 0;
+}
+#pp {
+  width: 500px;
+  margin: auto;
+  margin-top: -100px;
+  color: yellow;
+  font-size: larger;
+  font-family: abor;
+}
+
+/* /////////////////////////////////// */
+
+.boxbar {
+  width: 90vw;
+
+  height: 200px;
+  margin: auto;
+  gap: 20px;
+  display: flex;
+}
+.picturebox {
+  width: 250px;
+  height: 200px;
+  background-image: url(./assets/download.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 0.3rem;  */
+}
+.matter {
+  width: 800px;
+  height: 200px;
+  margin-left: 100px;
+  color: yellow;
+}
+.picture {
+  width: 250px;
+  height: 200px;
+  background-image: url(./assets/subash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  /* padding: 0.3rem; */
+  margin-left: 200px;
+}
+#his{
+  color: yellow;
+  font-size: larger;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
